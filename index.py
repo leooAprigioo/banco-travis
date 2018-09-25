@@ -9,7 +9,7 @@ class Banco():
             print("Digite um valor menor que o saldo atual")
             return False
         self.saldo -= valor
-        return True
+        return False
 
     def exibirSaldo(self):
         print(str(self.saldo))
